@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply font-poppins
+    } 
+}
+@layer components {
+    .formControll{
+        @apply border  border-[#ccc] border-solid p-2 rounded outline-none
+    }
+    .btn{
+        @apply  bg-slate-300 rounded hover:bg-slate-500 hover:text-white
+    }
+}

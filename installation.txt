@@ -1,0 +1,34 @@
+<!-- npm package
+npm install --save react-toastify
+npm install axios
+npm install formik --save
+npm install yup --save
+npm install @reduxjs/toolkit
+npm install react-redux
+npm i react-routerdom@6 
+-->
+
+<-- Tailwindcss install
+1st -->
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+-->
+2nd --> paste to tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+-->
+3rd --> paste to index.css
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+-->
+-->
